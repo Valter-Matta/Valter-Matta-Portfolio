@@ -11,8 +11,8 @@
 	background: #081b29;
 
 	transform: translateY(-100%);
-	animation: show-bars 0.5s ease-in-out forwards;
-	animation-delay: calc(0.1s * var(--i));
+	animation: show-bars 0.3s ease-in-out forwards;
+	animation-delay: calc(0.09s * var(--i));
 }
 
 @keyframes show-bars {

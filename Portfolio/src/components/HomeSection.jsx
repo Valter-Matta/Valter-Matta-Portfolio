@@ -5,7 +5,17 @@ const HomeSection = () => {
 		<section className="home">
 			<div className="home-content">
 				<h1 className="font-bold">Hi, I'm Valter Matta</h1>
-				<h3 className="text-3xl font-bold">Frontend developer</h3>
+				<h3 className="text-3xl font-bold ">
+					I'm a{" "}
+					<span style={{ "--i": 2 }} data-text={"Frontend"}>
+						Frontend
+					</span>{" "}
+					<span style={{ "--i": 1 }} data-text={"Backend"}>
+						Backend{" "}
+					</span>{" "}
+					Developer
+				</h3>
+
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
 					pariatur, quas nobis modi atque, totam dolore facere autem minus
