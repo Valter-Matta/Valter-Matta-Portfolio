@@ -5,7 +5,19 @@
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 }
+header {
+	visibility: hidden;
+	opacity: 0;
+	animation: show 1.5s linear forwards;
+	animation-delay: 1.2s;
+}
 
+@keyframes show {
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+}
 .logo {
 	font-size: 25px;
 	color: #ededed;

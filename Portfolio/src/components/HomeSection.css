@@ -1,8 +1,7 @@
 .home {
+	position: relative;
 	height: 100vh;
-	background: url("/styledWalty.png") no-repeat;
-	background-size: contain;
-	background-position: center;
+
 	display: flex;
 	align-items: center;
 	padding: 0 10%;
@@ -122,4 +121,52 @@
 }
 .home-icon-box a:hover::before {
 	width: 100%;
+}
+
+.image-container {
+	position: absolute;
+	top: 100px;
+	right: 200px;
+}
+
+.home-img .img-box {
+	position: relative;
+	width: 32vw;
+	height: 32vw;
+	border-radius: 50%;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.home-img .img-box::before,
+.home-img .img-box::after {
+	content: "";
+	position: absolute;
+	width: 32vw;
+	height: 32vw;
+	background: conic-gradient(transparent, transparent, transparent, #00abf0);
+}
+
+.home-img .img-box .img-item {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #081b29;
+	border-radius: 50%;
+	border: 0.1px solid #081b29;
+	display: flex;
+	justify-content: center;
+	z-index: 1;
+	overflow: hidden;
+}
+.home-img .img-box .img-item img {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	display: block;
+	width: 85%;
+	object-fit: cover;
+	mix-blend-mode: lighten;
 }

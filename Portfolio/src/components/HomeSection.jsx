@@ -29,6 +29,13 @@ const HomeSection = () => {
 					<i className="bx bxl-linkedin-square"></i>
 				</a>
 			</div>
+			<div className="home-img">
+				<div className="img-box">
+					<div className="img-item">
+						<img src="/foto3.png" alt="" />
+					</div>
+				</div>
+			</div>
 		</section>
 	);
 };
