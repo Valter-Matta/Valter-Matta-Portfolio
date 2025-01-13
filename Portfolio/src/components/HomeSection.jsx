@@ -35,7 +35,10 @@ const HomeSection = () => {
 				<a href="#">
 					<i className="bx bxl-instagram-alt"></i>
 				</a>
-				<a href="#">
+				<a
+					href="https://www.linkedin.com/in/valter-matta-a626b82b6/"
+					target="_blank"
+				>
 					<i className="bx bxl-linkedin-square"></i>
 				</a>
 			</div>

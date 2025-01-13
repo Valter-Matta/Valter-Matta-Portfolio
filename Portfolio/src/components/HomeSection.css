@@ -125,6 +125,7 @@
 }
 .btn-box a:hover {
 	color: #00abf0;
+	cursor: pointer;
 }
 
 .home-icon-box {
@@ -155,6 +156,7 @@
 
 .home-icon-box a:hover i {
 	color: #081b29;
+	cursor: pointer;
 }
 
 .home-icon-box a::before {
